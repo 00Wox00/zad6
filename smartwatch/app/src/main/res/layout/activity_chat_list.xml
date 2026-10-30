@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/watch_black"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="32dp"
+        android:paddingBottom="16dp"
+        android:text="Обсуждения"
+        android:textColor="@color/watch_blue"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lvChats"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/watch_blue"
+        android:dividerHeight="1dp" />
+</LinearLayout>
